@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+html,
+body {
+    background: radial-gradient(circle, #321c89 0%, rgba(0, 0, 0, 1) 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: Bagnolia;
+    src: url("../fonts/BagnoliaRegular.ttf") format("TrueType");
+
+}
+
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #e9efef;
+    text-transform: uppercase;
+    font-size: 60px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 5vw;
+    z-index: 750;
+    position: absolute;
+    top: 20%;
+    font-family: Bagnolia;
+    letter-spacing: 0.5rem;
+
+}
+
+
+h2{
+    font-family: sans-serif;
+    font-weight: 400;
+    color:  rgb(120, 133, 148);;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 40%;
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    z-index: 750;
+    position: absolute;
+    top: 30%;
+    font-family: Bagnolia;
+    letter-spacing: 0.2rem;
+}
+p {
+    width: 35%;
+    color: rgb(120, 133, 148);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 38%;
+    left: 5vw;
+    z-index: 750;
+    position: absolute;
+    line-height: 1.2rem;
+    text-align: justify;
+
+
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+.btn{
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.433);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(121, 120, 120);
+    z-index: 3000;
+    background: rgba(0, 0, 0, 0.115);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+}
+
+
+.btn:hover{
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.433);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 3000;
+    background: rgba(0, 0, 0, 0.115);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+}
+
+
+.btn1 {
+    position: absolute;
+    top: 80%;
+    left: 40vw;
+}
+.btn2 {
+    position: absolute;
+    top: 40%;
+    left: 70vw;
+}
+
+.btn3 {
+    position: absolute;
+    top: 70%;
+    left: 93vw;
+}
